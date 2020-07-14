@@ -1,3 +1,3 @@
-## Random Quotes
+## Random Alusões 
 
-ReactJs 
+Alusões aleatorias para redação do enem.
