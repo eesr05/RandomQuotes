@@ -11,7 +11,7 @@ class QuoteAndAuthor extends React.Component{
                     <h1 id="quote">"{this.props.quote}"</h1>
                     <h5 id="author">- {this.props.author ? this.props.author : "Unknown"}-</h5>
                 </div>
-                <button id="newquote" style={{backgroundColor: randomColor}} onClick={this.props.handleClick}> New quote</button>
+                <button id="newquote" style={{backgroundColor: randomColor}} onClick={this.props.handleClick}> Nova citação</button>
             </div>
         )
     }

@@ -1,6 +1,8 @@
 import React from 'react';
 import QuotesAndAuthor from './Quotes';
-import quotes from './QuotesDataBase'
+import quotes from './QuotesDataBase';
+import Navbar from './components/Nav/Hamburger'
+import Text from './containers/Text'
 import './App.css';
 
 
@@ -40,11 +42,21 @@ class App extends React.Component{
       return color
   }
 
+    handleClick2() {
+        this.setState({
+            open: !this.state.open
+        });
+    }
   render(){
     return(
-      <div>
-        <QuotesAndAuthor displayColor={this.randomColor} handleClick={this.handleClick} {...this.state}/>
+      <>
+       <Navbar />
+      <div>   
+       <QuotesAndAuthor displayColor={this.randomColor} handleClick={this.handleClick} {...this.state}/>
+       
       </div>
+      <Text />
+      </>
     )
   }
 }

@@ -1,0 +1,16 @@
+.section{
+    margin-top: 650px;
+    border: 2px solid green;
+    text-align: center;
+    display: flex;
+    flex-direction: column
+}
+p{
+    max-width: 830px;
+    justify-content: center;    
+    margin: 23px 250px; 
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 23px;
+ 
+}

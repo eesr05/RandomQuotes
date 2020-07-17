@@ -1,290 +1,295 @@
 const quotes = [
    
     {
-        "quote": "You can observe a lot just by watching.",
-        "author": "Yogi Berra"
+        "quote": "O prazer no trabalho aperfeiçoa a obra",
+        "author": "Aristóteles"
     },
     {
-        "quote": " Be the chief but never the lord.",
-        "author" : "Lao Tzu"
+        "quote": "  Getúlio Vargas apropriou-se da divulgação de uma falsa ameaça comunista para legitimar a implantação de um governo ditatorial.",
+        "author" : "Historia, 1937"
     },
     {
-        "quote": "A house divided against itself cannot stand.",
-        "author": "Abraham Lincoln"
+        "quote": "Sorte é o que acontece quando a preparação encontra a oportunidade",
+        "author": "Sêneca"
         }, {
-        "quote": "Difficulties increase the nearer we get to the goal.",
-        "author": "Johann Wolfgang von Goethe"
+        "quote":"Aquele que não economiza irá agonizar",
+        "author": "Confúcio"
         }, {
-        "quote": "Fate is in your hands and no one elses",
-        "author": "Byron Pulsifer"
+        "quote":"A pressa gera o erro em todas as coisas",
+        "author": "Heródoto"
         }, {
-        "quote": "Be the chief but never the lord.",
-        "author": "Lao Tzu"
+        "quote": "No meio do caos há sempre uma oportunidade",
+        "author": "Sun Tzu"
         }, {
-        "quote": "Nothing happens unless first we dream.",
-        "author": "Carl Sandburg"
+        "quote": "Só a educação liberta",
+        "author": "Epíteto"
         }, {
-        "quote": "Well begun is half done.",
-        "author": "Aristotle"
+        "quote": "Ler fornece ao espírito materiais para o conhecimento, mas só o pensar faz nosso o que lemos.",
+        "author": "John Locke"
         }, {
-        "quote": "Life is a learning experience, only if you learn.",
-        "author": "Yogi Berra"
+        "quote": "Onde não há lei, não há liberdade.",
+        "author": "John Locke"
         }, {
-        "quote": "Self-complacency is fatal to progress.",
-        "author": "Margaret Sangster"
+        "quote": "De um modo geral, os erros na religião são perigosos; enquanto os da filosofia apenas ridículos.",
+        "author": "David Hume"
         }, {
-        "quote": "Peace comes from within. Do not seek it without.",
-        "author": "Buddha"
+        "quote": "Prefiro ser um homem de paradoxos que um homem de preconceitos.",
+        "author": "Jean-Jacques Rousseau"
         }, {
-        "quote": "What you give is what you get.",
-        "author": "Byron Pulsifer"
+        "quote": "A natureza fez o homem feliz e bom, mas a sociedade deprava-o e torna-o miserável",
+        "author": "Jean-Jacques Rousseau"
         }, {
-        "quote": "We can only learn to love by loving.",
-        "author": "Iris Murdoch"
+        "quote": "Podemos julgar o coração de um homem pela forma como ele trata os animais.",
+        "author": "Immanuel Kant"
         }, {
-        "quote": "Life is change. Growth is optional. Choose wisely.",
-        "author": "Karen Clark"
+        "quote": "É por isso que se mandam as crianças à escola: não tanto para que aprendam alguma coisa, mas para que se habituem a estar calmas e sentadas e a cumprir escrupulosamente o que se lhes ordena, de modo que depois não pensem mesmo que têm de pôr em prática as suas ideias.",
+        "author": "Immanuel Kant"
         }, {
-        "quote": "You'll see it when you believe it.",
-        "author": "Wayne Dyer"
+        "quote": "O inferno são os outros.",
+        "author": "Jean-Paul Sartre"
         }, {
-        "quote": "Today is the tomorrow we worried about yesterday.",
-        "author": ""
+        "quote": "Ainda que fôssemos surdos e mudos como uma pedra, a nossa própria passividade seria uma forma de ação.",
+        "author": "Jean-Paul Sartre"
         }, {
-        "quote": "It's easier to see the mistakes on someone else's paper.",
-        "author": ""
+        "quote": "As pessoas sabem aquilo que elas fazem; frequentemente sabem por que fazem o que fazem; mas o que ignoram é o efeito produzido por aquilo que fazem.",
+        "author": "Michel Foucault"
         }, {
-        "quote": "Every man dies. Not every man really lives.",
-        "author": ""
+        "quote": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos.",
+        "author": "Artigo 1º da Declaração Universal dos Direitos Humanos."
         }, {
-        "quote": "To lead people walk behind them.",
-        "author": "Lao Tzu"
+        "quote": "Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo.",
+        "author": "George Santayana"
         }, {
-        "quote": "Having nothing, nothing can he lose.",
-        "author": "William Shakespeare"
+        "quote": "A educação é a arma mais poderosa que você pode usar para mudar o mundo",
+        "author": "Nelson Mandela"
         }, {
-        "quote": "Trouble is only opportunity in work clothes.",
-        "author": "Henry J. Kaiser"
+        "quote": "A insatisfação é o primeiro passo para o progresso de um homem ou de uma nação.",
+        "author": "Oscar Wilde"
         }, {
-        "quote": "A rolling stone gathers no moss.",
-        "author": "Publilius Syrus"
+        "quote": "Não são as crises que mudam o mundo, e sim nossa reação a elas.",
+        "author": "Zygmunt Bauman,"
         }, {
-        "quote": "Ideas are the beginning points of all fortunes.",
-        "author": "Napoleon Hill"
+        "quote": "O indivíduo só poderá agir na medida em que aprender a conhecer o contexto em que está inserido, a saber quais são suas origens e as condições de que depende.",
+        "author": "Émile Durkheim"
         }, {
-        "quote": "Everything in life is luck.",
-        "author": "Donald Trump"
+        "quote": "Não corrigir nossas falhas é o mesmo que cometer novos erros.",
+        "author": "Confúcio"
         }, {
-        "quote": "Doing nothing is better than being busy doing nothing.",
-        "author": "Lao Tzu"
+        "quote": "Temos de nos tornar a mudança que queremos ver.",
+        "author": "Mahatma Gandhi"
         }, {
-        "quote": "Trust yourself. You know more than you think you do.",
-        "author": "Benjamin Spock"
+        "quote": "O progresso é impossível sem mudança; e aqueles que não conseguem mudar as suas mentes não conseguem mudar nada.",
+        "author": "George Bernard Shaw, dramaturgo e jornalista irlandês"
         }, {
-        "quote": "Study the past, if you would divine the future.",
-        "author": "Confucius"
+        "quote": "Se queres prever o futuro, estuda o passado.",
+        "author": "Confúcio"
         }, {
-        "quote": "The day is already blessed, find peace within it.",
-        "author": ""
+        "quote": "Um país não muda pela sua economia, sua política e nem mesmo sua ciência; muda sim pela sua cultura.",
+        "author": "Herbert José de Sousa (Betinho), sociólogo e ativista dos direitos humanos brasileiro."
         }, {
-        "quote": "From error to error one discovers the entire truth.",
-        "author": "Sigmund Freud"
+        "quote": "Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda",
+        "author": "Paulo Freire"
         },{
-        "quote": "Well done is better than well said.",
-        "author": "Benjamin Franklin"
+        "quote": "Educação nunca foi despesa. Sempre foi investimento com retorno garantido.",
+        "author": "Sir Arthur Lewis, economista britânico "
         }, {
-        "quote": "Bite off more than you can chew, then chew it.",
-        "author": "Ella Williams"
+        "quote": "O homem está condenado a ser livre, pois, uma vez lançado ao mundo, ele é responsável por tudo o que faz.",
+        "author": "Jean Paul Sartre"
         }, {
-        "quote": "Work out your own salvation. Do not depend on others.",
-        "author": "Buddha"
+        "quote": "Frágeis usam a violência, e os fortes, as ideias",
+        "author": "Augusto Cury"
         }, {
-        "quote": "One today is worth two tomorrows.",
-        "author": "Benjamin Franklin"
+        "quote": "Inteligência é a habilidade das espécies para viver em harmonia com o meio ambiente.",
+        "author": "Paul Atson, co-fundador do Greenpeace"
         }, {
-        "quote": "Once you choose hope, anythings possible.",
-        "author": "Christopher Reeve"
+        "quote": "A cultura está acima da diferença da condição social",
+        "author": "Confúcio"
         }, {
-        "quote": "God always takes the simplest way.",
+        "quote": "Um povo que lê nunca será um povo escravo.",
+        "author": "António Lobo Antunes,  escritor e psiquiatra"
+        }, {
+        "quote": "Você é livre para fazer suas escolhas, mas é prisioneiro das consequências.",
+        "author": "Pablo Neruda"
+        }, {
+        "quote": "Você é livre para fazer suas escolhas, mas é prisioneiro das consequências.",
+        "author": "Thomas Hobbes"
+        }, {
+        "quote": "A nossa civilização é em grande parte responsável pelas nossas desgraças. Seríamos muito mais felizes se a abandonássemos e retornássemos às condições primitivas.",
+        "author": "Sigmund Freud"
+        }, {
+        "quote": "A civilização não suprime a barbárie, aperfeiçoa-a",
+        "author": "Voltaire"
+        }, {
+        "quote": "As redes sociais são muito úteis, oferecem serviços muito prazerosos, mas são uma armadilha",
+        "author": "Zygmunt Bauman"
+        }, {
+        "quote": "O novo não está no que é dito, mas no acontecimento de sua volta.",
+        "author": "Michel Foucault"
+        }, {
+        "quote": "O homem nasce livre, mas por toda parte se encontra acorrentado",
+        "author": "Jean Jacques Rousseau"
+        }, {
+        "quote": "Quem conduz e arrasta o mundo não são as máquinas, são as ideias",
+        "author": "Victor Hugo"
+        }, {
+        "quote": "Vivemos em uma época perigosa. O homem domina a natureza antes que tenha aprendido a dominar a si mesmo.",
+        "author": "Albert Schweitzer"
+        }, {
+        "quote": "Viva em harmonia com as leis da natureza e você nunca será pobre. Viva em harmonia com opiniões e nunca será rico.",
+        "author": "Sêneca"
+        }, {
+        "quote": "Creio que os animais veem no homem um ser igual a eles que perdeu de forma extraordinariamente perigosa o são intelecto animal. Veem nele um ser irracional que ri, chora. Um animal infeliz.",
+        "author": "Friedrich Nitzsche"
+        }, {
+        "quote": "Só se pode vencer a natureza obedecendo-lhe.",
+        "author": "Francis Bacon"
+        }, {
+        "quote": "O homem fez da terra um inferno para os animais.",
+        "author": "Arthur Schopenhauer"
+        }, {
+        "quote": "A natureza fez o comer para o viver e a gula fez o comer muito para o viver pouco.",
+        "author": "Padre Antônio Vieira"
+        }, {
+        "quote": "O macaco é um animal demasiado simpático para que o homem descenda dele.",
+        "author": "Friedrich Nietzsche"
+        }, {
+        "quote": "Os direitos humanos são violados não só pelo terrorismo, a repressão, os assassinatos, mas também pela existência de extrema pobreza e estruturas econômicas injustas, que originam as grandes desigualdades.",
+        "author": "Papa Francisco"
+        }, {
+        "quote": "A vontade geral deve emanar de todos para ser aplicada a todos.",
+        "author": "Jean-Jacques Rousseau"
+        }, {
+        "quote": "Entre todos os direitos da mulher, nenhum é maior que o de ser mãe.",
+        "author": "Yutang Lin, escritor chinês"
+        }, {
+        "quote": "Os preconceitos têm mais raízes do que os princípios",
+        "author": "Nicolau Maquiavel"
+        }, {
+        "quote": "Preconceito bloqueia a mente. Nada pode entrar. Nada verdadeiro pode escapar.",
+        "author": "Gerry Spence, jurista americano"
+        }, {
+        "quote": "Todo preconceito é condicionado por outro preconceito, e os mais frequentes são aqueles que provêm de suas contradições.",
+        "author": "Elías Canetti, escritor austríaco"
+        }, {
+        "quote": "Os seres humanos são examinadores pobres, sujeitos a superstição, viés, preconceito e uma tendência profunda para ver o que eles querem ver, e não o que realmente está lá.",
+        "author": "Morgan Scott Peck, psiquiatra e escritor"
+        }, {
+        "quote": "O preconceito é filho da ignorância.",
+        "author": "William Hazlitt, escritor e crítico"
+        }, {
+        "quote": "O preconceito é um fardo que confunde o passado, ameaça o futuro e torna o presente inacessível.",
+        "author": "Maya Angelou, poeta e atriz"
+        }, {
+        "quote": "O medo é um preconceito dos nervos. E um preconceito, desfaz-se – basta a simples reflexão.",
+        "author": "Machado de Assis"
+        }, {
+        "quote": "O preconceito da raça é injusto e causa grande sofrimento às pessoas.",
+        "author": "Voltaire"
+        }, {
+        "quote": "Época triste a nossa… mais fácil quebrar um átomo do que o preconceito",
         "author": "Albert Einstein"
         }, {
-        "quote": "One fails forward toward success.",
-        "author": "Charles Kettering"
+        "quote": "Todo preconceito é fruto da burrice, da ignorância e qualquer atividade cultural contra preconceitos é válida.",
+        "author": "Paulo Autran"
         }, {
-        "quote": "From small beginnings come great things.",
-        "author": ""
+        "quote": "Direito de asilo é direito humano.",
+        "author": "Jürgen Habermas"
         }, {
-        "quote": "Learning is a treasure that will follow its owner everywhere",
-        "author": "Chinese proverb"
+        "quote": "Nada no mundo é mais assustador que a ignorância em ação.",
+        "author": "Goethe"
         }, {
-        "quote": "Be as you wish to seem.",
-        "author": "Socrates"
+        "quote": "Entre os indivíduos, assim como entre nações, o respeito pelo direito alheio é a paz",
+        "author": "Benito Juárez, ex-presidente do México"
         }, {
-        "quote": "The world is always in movement.",
-        "author": "V. Naipaul"
+        "quote": "É no problema da educação que assenta o grande degredo do aperfeiçoamento da humanidade.",
+        "author": "Immanuel Kant"
         }, {
-        "quote": "Never mistake activity for achievement.",
-        "author": "John Wooden"
+        "quote": "A educação não é nem oriental nem ocidental. A educação é a educação e é o direito de cada ser humano.",
+        "author": "Malala Yousafzai, ativista paquistanesa"
         }, {
-        "quote": "What worries you masters you.",
-        "author": "Haddon Robinson"
+        "quote": "A educação nos ajudará a sair da sujeira e da mediocridade.",
+        "author": "Betty Smith, escritora"
         }, {
-        "quote": "One faces the future with ones past.",
-        "author": "Pearl Buck"
+        "quote": "A educação exige os maiores cuidados, porque influi sobre toda a vida.",
+        "author": "Sêneca"
         }, {
-        "quote": "Goals are the fuel in the furnace of achievement.",
-        "author": "Brian Tracy"
+        "quote": "O principal objetivo da educação é criar pessoas capazes de fazer coisas novas e não simplesmente repetir o que outras gerações fizeram.",
+        "author": "Jean Piaget, biólogo, psicólogo e epistemólogo suíço"
         }, {
-        "quote": "Who sows virtue reaps honour.",
-        "author": "Leonardo da Vinci"
+        "quote": "O homem é tão bom quanto seu desenvolvimento tecnológico o permite ser.",
+        "author": "George Orwell"
         }, {
-        "quote": "Be kind whenever possible. It is always possible.",
+        "quote": "Temos que reconhecer humildemente: desenvolvimento tecnológico não trouxe o desenvolvimento psíquico esperado. Algumas coisas melhoraram, outras pioraram. Transtornos emocionais, solidão, crise de diálogo.",
+        "author": "Augusto Cury"
+        }, {
+        "quote": "A ciência de hoje é a tecnologia de amanhã.",
+        "author": "Edward Teller, físico"
+        }, {
+        "quote": "Uma mentira repetida mil vezes torna-se verdade.",
+        "author": "Paul Joseph Goebbels, político alemão"
+        }, {
+        "quote": "Cultivar estados mentais positivos como a generosidade e a compaixão decididamente conduz a melhor saúde mental e a felicidade.",
         "author": "Dalai Lama"
         }, {
-        "quote": "Talk doesn't cook rice.",
-        "author": "Chinese proverb"
+        "quote": "Saúde mental ideal, como a liberdade, existe para uma pessoa apenas se ela existe para todas as pessoas.",
+        "author": "Phyllis Chesler, escritora"
         }, {
-        "quote": "He is able who thinks he is able.",
-        "author": "Buddha"
+        "quote": "Toda forma de vício é ruim, não importa que seja droga, álcool ou idealismo.",
+        "author": "Carl Gustav Jung, psiquiatra"
         }, {
-        "quote": "Be as you wish to seem.",
-        "author": "Socrates"
+        "quote": "É triste pensar que a natureza fala e o que o gênero humano não a ouve.",
+        "author": "Victor Hugo"
         }, {
-        "quote": "A goal without a plan is just a wish.",
-        "author": "Larry Elder"
+        "quote": "Primeiro foi necessário civilizar o homem em relação ao próprio homem. Agora é necessário civilizar o homem em relação a natureza e aos animais.",
+        "author": "Victor Hugo"
         }, {
-        "quote": "To succeed, we must first believe that we can.",
-        "author": "Michael Korda"
+        "quote": "Se você tem metas para um ano. Plante arroz. Se você tem metas para 10 anos. Plante uma árvore. Se você tem metas para 100 ano, então eduque uma criança. Se você tem metas para 1000 anos, então preserve o meio ambiente.",
+        "author": "Confúcio"
         }, {
-        "quote": "Learn from yesterday, live for today, hope for tomorrow.",
-        "author": "Albert Einstein"
+        "quote": "A nossa geração tem que escolher o que ela valoriza mais: lucros de curto prazo ou habitabilidade de longo prazo no nosso lar planetário?.",
+        "author": "Carl Sagan, O CARA"
         }, {
-        "quote": "A weed is no more than a flower in disguise.",
-        "author": "James Lowell"
+        "quote": "Quando a natureza puxa a corda, é porque caminhamos ao contrário; quando ela nos castiga, é que o perigo está perto.",
+        "author": "Eliphas Lévi, escritor"
         }, {
-        "quote": "Do, or do not. There is no try.",
-        "author": "Yoda"
+        "quote": "Se cada um de nós varresse a frente do nosso lugar, o mundo todo seria limpo.",
+        "author": "Goethe"
         }, {
-        "quote": "All serious daring starts from within.",
-        "author": "Harriet Beecher Stowe"
+        "quote": "Se soubesse que o mundo se acaba amanhã, eu ainda hoje plantaria uma árvore.",
+        "author": "Martin Luther King"
         }, {
-        "quote": "The best teacher is experience learned from failures.",
-        "author": "Byron Pulsifer"
+        "quote": "As árvores são nosso pulmão, os rios nosso sangue, o ar é nossa respiração, e a Terra, nosso corpo.",
+        "author": "Deepak Chopra, médico e professor indiano"
         }, {
-        "quote": "Think how hard physics would be if particles could think.",
-        "author": "Murray Gell-Mann"
+        "quote": "O homem é um animal político.",
+        "author": "Aristóteles"
         }, {
-        "quote": "Love is the flower you've got to let grow.",
-        "author": "John Lennon"
+        "quote": "A globalização encurtou as distâncias métricas, aumentando muito mais as distâncias afetivas.",
+        "author": "Jaak Bosmans, escritor "
         }, {
-        "quote": "Don't wait. The time will never be just right.",
-        "author": "Napoleon Hill"
+        "quote": "A democracia não é apenas a lei da maioria, é a lei da maioria respeitando o direito das minorias.",
+        "author": "Clement Attlee, político"
         }, {
-        "quote": "One fails forward toward success.",
-        "author": "Charles Kettering"
+        "quote": "Todo o progresso é precário, e a solução para um problema coloca-nos diante de outro problema.",
+        "author": "Martin Luther King"
         }, {
-        "quote": "Time is the wisest counsellor of all.",
-        "author": "Pericles"
+        "quote": "O progresso é impossível sem mudança; e aqueles que não conseguem mudar as suas mentes não conseguem mudar nada.",
+        "author": "George Bernard Shaw, dramaturgo e jornalista"
         }, {
-        "quote": "You give before you get.",
-        "author": "Napoleon Hill"
+        "quote": "A história da sociedade até aos nossos dias é a história da luta de classes.",
+        "author": "Karl Marx"
         }, {
-        "quote": "Wisdom begins in wonder.",
-        "author": "Socrates"
-        }, {
-        "quote": "Without courage, wisdom bears no fruit.",
-        "author": "Baltasar Gracian"
-        }, {
-        "quote": "Change in all things is sweet.",
-        "author": "Aristotle"
-        }, {
-        "quote": "What you fear is that which requires action to overcome.",
-        "author": "Byron Pulsifer"
-        }, {
-        "quote": "The best teacher is experience learned from failures.",
-        "author": "Byron Pulsifer"
-        }, {
-        "quote": "When performance exceeds ambition, the overlap is called success.",
-        "author": "Cullen Hightower"
-        }, {
-        "quote": "When deeds speak, words are nothing.",
-        "author": "African proverb"
-        }, {
-        "quote": "Real magic in relationships means an absence of judgement of others.",
-        "author": "Wayne Dyer"
-        }, {
-        "quote": "When performance exceeds ambition, the overlap is called success.",
-        "author": "Cullen Hightower"
-        }, {
-        "quote": "I never think of the future. It comes soon enough.",
-        "author": "Albert Einstein"
-        }, {
-        "quote": "Skill to do comes of doing.",
-        "author": "Ralph Emerson"
-        }, {
-        "quote": "Wisdom is the supreme part of happiness.",
-        "author": "Sophocles"
-        }, {
-        "quote": "I believe that every person is born with talent.",
-        "author": "Maya Angelou"
-        }, {
-        "quote": "Important principles may, and must, be inflexible.",
-        "author": "Abraham Lincoln"
-        }, {
-        "quote": "The undertaking of a new action brings new strength.",
-        "author": "Richard Evans"
-        }, {
-        "quote": "I believe that every person is born with talent.",
-        "author": "Maya Angelou"
-        }, {
-        "quote": "The years teach much which the days never know.",
-        "author": "Ralph Emerson"
-        }, {
-        "quote": "Our distrust is very expensive.",
-        "author": "Ralph Emerson"
-        }, {
-        "quote": "All know the way; few actually walk it.",
-        "author": "Bodhidharma"
-        }, {
-        "quote": "Great talent finds happiness in execution.",
-        "author": "Johann Wolfgang von Goethe"
-        }, {
-        "quote": "Faith in oneself is the best and safest course.",
-        "author": "Michelangelo"
-        }, {
-        "quote": "Courage is going from failure to failure without losing enthusiasm.",
-        "author": "Winston Churchill"
-        }, {
-        "quote": "The two most powerful warriors are patience and time.",
-        "author": "Leo Tolstoy"
-        }, {
-        "quote": "Anticipate the difficult by managing the easy.",
-        "author": "Lao Tzu"
-        }, {
-        "quote": "Those who are free of resentful thoughts surely find peace.",
-        "author": "Buddha"
-        }, {
-        "quote": "Talk doesn't cook rice.",
-        "author": "Chinese proverb"
-        }, {
-        "quote": "A short saying often contains much wisdom.",
-        "author": "Sophocles"
-        }, {
-        "quote": "The day is already blessed, find peace within it.",
-        "author": ""
-        }, {
-        "quote": "It takes both sunshine and rain to make a rainbow.",
-        "author": ""
-        }, {
-        "quote": "A beautiful thing is never perfect.",
-        "author": ""
-        }, {
-        "quote": "Only do what your heart tells you.",
-        "author": "Princess Diana"
-        }, {
-        "quote": "Life is movement-we breathe, we eat, we walk, we move!",
-        "author": "John Pierrakos"
-        }
+        "quote": "Democracia com fome, sem educação e saúde para a maioria, é uma concha vazia.",
+        "author": "Nelson Mandela"
+        },
+        {
+            "quote": "O Brasil, último país a acabar com a escravidão tem uma perversidade intrínseca na sua herança, que torna a nossa classe dominante enferma de desigualdade, de descaso.",
+            "author": "Darcy Ribeiro, antropólogo, escritor e político brasileiro"
+            },
+             {
+            "quote": "Livros não mudam o mundo,quem muda o mundo são as pessoas.Os livros só mudam as pessoas.",
+            "author": "Mario Quintana"
+            }
 ]
 
 export default quotes

@@ -7,9 +7,8 @@ html{
 }
 
 #root{
-  width:80%;
-  margin:100px 400px;
-  
+  width:100%;
+
 }
 
 .quotebox{
@@ -19,7 +18,10 @@ html{
   border-radius: 10px;
   text-align: right;
   max-width: 35rem;
-
+  padding-right:5px;
+  margin-top:10px;
+  margin:200px 400px;
+  
  
 }
 .quote{
