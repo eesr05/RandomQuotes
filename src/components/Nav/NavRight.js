@@ -7,6 +7,7 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    color:yellow;
 
     li{
         padding:18px 10px;
@@ -38,8 +39,8 @@ const NavRight = ({ open }) => {
         <BrowserRouter>
        <Switch>
         <Ul open={open}>
-            <li><Link to='./Text'> Home </Link></li>
-            <li>About Us</li>
+            <li><Link to='./Text'>  </Link></li>
+            <li></li>
            
         </Ul>
         </Switch>
