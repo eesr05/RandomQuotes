@@ -1,6 +1,6 @@
 .section{
-    margin-top: 650px;
-    border: 2px solid green;
+    margin-top: 600px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -10,13 +10,23 @@
 h2{
   text-align: center;
  
+  color:#F23005 !important;
+  margin-bottom: 50px;
+ 
+ 
+}
+mark{
+ background-color: #F28B30;
 }
 .Howredacao{
-   
+ 
+  font-weight: normal;
     max-width: 830px;
     justify-content: center;    
     margin: 23px 250px; 
     text-indent: 2em;
     text-align: justify;
     line-height: 23px;
+
 }
+

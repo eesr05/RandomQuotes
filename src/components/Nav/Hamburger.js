@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Burger from './Burger'
 import Logo from './logo/logo.png'
+import { animateScroll as scroll } from 'react-scroll'
 
 const Nav = styled.nav`
     width: 100%;
@@ -13,7 +14,7 @@ const Nav = styled.nav`
     padding: 0 5px;
     display: flex;
     justify-content: space-between;
-    background-color:red;
+    background-color:#D96E48;
     z-index:1;
 
     .logo{
@@ -29,7 +30,7 @@ const Navbar = () => {
     return(
         <Nav>
             <div > 
-            <img className="logo" src={Logo} alt='Logo'/>
+            <img className="logo" src={Logo} alt='Logo' onClick={() => scroll.scrollToTop()}/>
              </div>
             <Burger />
         </Nav>

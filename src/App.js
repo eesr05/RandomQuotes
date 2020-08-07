@@ -3,6 +3,7 @@ import QuotesAndAuthor from './Quotes';
 import quotes from './QuotesDataBase';
 import Navbar from './components/Nav/Hamburger'
 import Text from './containers/Text'
+import Footer from './footer/Footer'
 import './App.css';
 
 
@@ -56,6 +57,7 @@ class App extends React.Component{
        
       </div>
       <Text />
+      <Footer />
       </>
     )
   }

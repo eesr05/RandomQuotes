@@ -1,7 +1,8 @@
 import React  from 'react'
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter,  Switch } from 'react-router-dom'
 import styled from 'styled-components'
-import Text from '../../containers/Text'
+import { Link } from 'react-scroll'
+
 
 const Ul = styled.ul`
     list-style: none;
@@ -27,7 +28,7 @@ const Ul = styled.ul`
         transition: transform 0.3s ease-in-out;
 
         li{
-            color: #ccc;
+            color: #D9D9D9;
         }
     }
 `
@@ -39,7 +40,7 @@ const NavRight = ({ open }) => {
         <BrowserRouter>
        <Switch>
         <Ul open={open}>
-            <li><Link to='./Text'>  </Link></li>
+            <li><Link to='texto' smooth={true} duration={1000}> Mais  </Link></li>
             <li></li>
            
         </Ul>

@@ -1,47 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './text.css'
 
 function Text(params) {
     return(
-        <div className='section'>
+        <div className='section'  >
         
-        <div className='Howredacao'>
-        <h2> <strong> Como usar as citações </strong> </h2>
-        <p> Usar alusões historicas e citações alavancam sua nota na redação no Enem, por isso para te ajudar esse gerador de citações mostra diversas frases que podem ser usadas como parte de sua argumentação, aproveite. <br /><br />
+        <div className='Howredacao' id="texto" >
+        <h2 > <mark> Como usar as citações </mark> </h2>
+        <p> Usar alusões historicas e citações alavancam sua nota na redação no Enem, por isso para te ajudar
+         esse gerador de citações mostra diversas frases que podem ser usadas como parte de sua argumentação,
+          aproveite. <br /><br />
 
-        Nullam mi magna, dapibus sed sapien at, commodo ultrices ante. Donec non turpis erat. Maecenas porttitor imperdiet magna a suscipit.
-        Proin vitae aliquet arcu, sed finibus purus. Donec mattis lorem lacus, sed tincidunt nisi elementum eget. Fusce at mauris id nunc
-        consectetur pharetra ut vel odio. Vivamus suscipit, magna vitae faucibus consectetur, purus augue porttitor elit, vitae pulvinar sem 
-        tortor sit amet ligula. Nulla ut justo in elit sollicitudin porttitor. Morbi auctor id purus dapibus bibendum. Proin pellentesque 
-        consequat faucibus. Sed ac erat nibh. In nisl magna, pharetra at eros vel, scelerisque sollicitudin sapien. <br /><br />
+        As redações nota mil, em sua maioria, possuem ao menos duas citações, sejam de figuras públicas, não 
+        só filósofos, cientistas, e autores , como também alusões históricas do mundo em que vivemos, então
+         coloque em sua redação, porém tome cuidado em escolher pois tem que estar de acordo com o tema que
+          está sendo desenvolvido. <br /><br />
+        O que é preciso para redação perfeita:
 
-        Curabitur iaculis neque vitae felis fringilla venenatis. Vestibulum magna magna, imperdiet sit amet mattis porttitor, suscipit sed nunc.
-        Nulla facilisi. Vivamus sit amet accumsan ex. Morbi sollicitudin sem lectus, eu sagittis eros tincidunt eget. Nulla neque nisi, ornare
-        in venenatis ullamcorper, finibus eget risus. Pellentesque viverra sem enim, et pellentesque lacus condimentum eu. Duis molestie ultri
-        ces sapien sed porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis non orci metus.
-        Cras non condimentum justo, eu faucibus elit.<br /><br />
-        Nullam mi magna, dapibus sed sapien at, commodo ultrices ante. Donec non turpis erat. Maecenas porttitor imperdiet magna a suscipit.
-        Proin vitae aliquet arcu, sed finibus purus. Donec mattis lorem lacus, sed tincidunt nisi elementum eget. Fusce at mauris id nunc
-        consectetur pharetra ut vel odio. Vivamus suscipit, magna vitae faucibus consectetur, purus augue porttitor elit, vitae pulvinar sem 
-        tortor sit amet ligula. Nulla ut justo in elit sollicitudin porttitor. Morbi auctor id purus dapibus bibendum. Proin pellentesque 
-        consequat faucibus. Sed ac erat nibh. In nisl magna, pharetra at eros vel, scelerisque sollicitudin sapien.<br /> <br />
+        Domínio da norma-padrão da língua escrita; Compreensão do tema; Organização das informações e
+         argumentos;  Apresentar uma proposta de intervenção para o problema. <br /><br/>
 
-        Curabitur iaculis neque vitae felis fringilla venenatis. Vestibulum magna magna, imperdiet sit amet mattis porttitor, suscipit sed nunc.
-        Nulla facilisi. Vivamus sit amet accumsan ex. Morbi sollicitudin sem lectus, eu sagittis eros tincidunt eget. Nulla neque nisi, ornare
-        in venenatis ullamcorper, finibus eget risus. Pellentesque viverra sem enim, et pellentesque lacus condimentum eu. Duis molestie ultri
-        ces sapien sed porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis non orci metus.
-        Cras non condimentum justo, eu faucibus elit.<br /> <br />
-        Nullam mi magna, dapibus sed sapien at, commodo ultrices ante. Donec non turpis erat. Maecenas porttitor imperdiet magna a suscipit.
-        Proin vitae aliquet arcu, sed finibus purus. Donec mattis lorem lacus, sed tincidunt nisi elementum eget. Fusce at mauris id nunc
-        consectetur pharetra ut vel odio. Vivamus suscipit, magna vitae faucibus consectetur, purus augue porttitor elit, vitae pulvinar sem 
-        tortor sit amet ligula. Nulla ut justo in elit sollicitudin porttitor. Morbi auctor id purus dapibus bibendum. Proin pellentesque 
-        consequat faucibus. Sed ac erat nibh. In nisl magna, pharetra at eros vel, scelerisque sollicitudin sapien.<br /> <br />
+        Na introdução, deve-se apresentar e mostrar seu posicionamento sobre o tema, e antes de finalizar o 
+        paragrafo deve constar sua tese, que nada mais é que sua linha de raciocínio. Nos paragrafos de
+        desenvolvimento, voce deve defender sua tese, para sustentar sua argumentação utilize alusões historicas,
+         citações, filmes, entre outros, que estejam relacionados ao tema, e que tenha conexao com sua argumentação, 
+         por isso coloque tudo de uma forma mais clara e objetiva possível, para que fique uma redação organizada 
+         procure deixar cada paragrafo para um argumento especifico.  E nao se esqueça de usar conectivos, tais como,
+          "não só… mas também", "ainda por cima", "A fim de', entre outros. <br /> <br/>
 
-        Curabitur iaculis neque vitae felis fringilla venenatis. Vestibulum magna magna, imperdiet sit amet mattis porttitor, suscipit sed nunc.
-        Nulla facilisi. Vivamus sit amet accumsan ex. Morbi sollicitudin sem lectus, eu sagittis eros tincidunt eget. Nulla neque nisi, ornare
-        in venenatis ullamcorper, finibus eget risus. Pellentesque viverra sem enim, et pellentesque lacus condimentum eu. Duis molestie ultri
-        ces sapien sed porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis non orci metus.
-        Cras non condimentum justo, eu faucibus elit.</p>
+        Reserve o ultimo paragrafo para a conclusão, na sua proposta de intervenção deve conter 5 elementos, sao eles,
+         o AGENTE, que deve fazer, o MODO, como deve ser feito, o MEIO como vai ser realizado, DETALHAMENTO, especificar
+          com mais detalhes, e a FINALIDADE, o que se espera conseguir com sua proposta. O ideal é que seja retomado a 
+          citação feita no primeiro paragrafo, para que assim fique uma redação ciclica.<br /><br />
+      </p>
         </div>
         </div>
     )
