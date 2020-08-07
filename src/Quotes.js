@@ -6,6 +6,7 @@ class QuoteAndAuthor extends React.Component{
         const html = document.documentElement
         html.style.backgroundColor = randomColor
         return(
+            <>
             <div className="quotebox" style={{backgroundColor: "#D9D9D9"}}>
                 <div className="fadeIn" key={Math.random()} style={{color: 'blue'}}>
                     <h1 id="quote">"{this.props.quote}"</h1>
@@ -13,6 +14,8 @@ class QuoteAndAuthor extends React.Component{
                 </div>
                 <button id="newquote" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button>
             </div>
+            <button id="newquote2" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button> 
+            </>
         )
     }
 }

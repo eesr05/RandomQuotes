@@ -13,6 +13,7 @@ const Ul = styled.ul`
     li{
         padding:18px 10px;
         margin-right:30px;
+        cursor: pointer;
     }
 
     @media(max-width: 768px){
@@ -21,6 +22,7 @@ const Ul = styled.ul`
         position: fixed;
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top:0;
+        
         right: 0;
         height: 100vh;
         width: 300px;
@@ -29,6 +31,7 @@ const Ul = styled.ul`
 
         li{
             color: #D9D9D9;
+            
         }
     }
 `

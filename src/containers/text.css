@@ -30,3 +30,9 @@ mark{
 
 }
 
+@media(max-width: 768px){
+  .Howredacao{
+    margin:0;
+  }
+  
+}
