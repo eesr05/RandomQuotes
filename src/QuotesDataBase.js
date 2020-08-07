@@ -289,7 +289,11 @@ const quotes = [
              {
             "quote": "Livros não mudam o mundo,quem muda o mundo são as pessoas.Os livros só mudam as pessoas.",
             "author": "Mario Quintana"
-            }
+            },
+            {
+                "quote": "Deus não pode querer que sua obra seja maculada, permitindo que se inocule no homem a linfa de um ser inferior como a vaca",
+                "author": "Papa Pio VII"
+                }
 ]
 
 export default quotes
