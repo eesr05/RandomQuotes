@@ -83,13 +83,13 @@ class App extends React.Component{
     <body className="root" />
 
     {/* title attributes and value */}
-    <title itemProp="name" lang="en">para sua redação</title>
+    <title itemProp="name" lang="en">para usar na sua redação</title>
 
     {/* base element */}
     {/* <base target="_blank" href="http://mysite.com/" /> */}
 
     {/* multiple meta elements */}
-    <meta name="description" content="Um site com citações para usar na redação do enem" />
+    <meta name="description" content="Uma pagina para você encontrar a melhor citação para sua redação nota mil no ENEM"/>
     <meta name="keywords" content="Redação, ENEM, alusão, citações, enem, prova, argumentação, lista, mil, intervenção" />
     <meta property="og:type" content="article" />
 
