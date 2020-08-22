@@ -293,7 +293,11 @@ const quotes = [
             {
                 "quote": "Deus não pode querer que sua obra seja maculada, permitindo que se inocule no homem a linfa de um ser inferior como a vaca",
                 "author": "Papa Pio VII"
-                }
+                },
+                {
+                    "quote": "Os livros são essenciais para compreender o mundo e participar de uma sociedade democrática",
+                    "author": "Carl Sagan"
+                    }
 ]
 
 export default quotes
