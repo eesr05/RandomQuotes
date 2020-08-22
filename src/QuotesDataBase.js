@@ -1,7 +1,7 @@
 const quotes = [
    
     {
-        "quote": "O prazer no trabalho aperfeiçoa a obra",
+        "quote": "O prazer no trabalho aperfeiçoa a obra.",
         "author": "Aristóteles"
     },
     {
@@ -9,19 +9,19 @@ const quotes = [
         "author" : "Historia, 1937"
     },
     {
-        "quote": "Sorte é o que acontece quando a preparação encontra a oportunidade",
+        "quote": "Sorte é o que acontece quando a preparação encontra a oportunidade.",
         "author": "Sêneca"
         }, {
-        "quote":"Aquele que não economiza irá agonizar",
+        "quote":"Aquele que não economiza irá agonizar.",
         "author": "Confúcio"
         }, {
-        "quote":"A pressa gera o erro em todas as coisas",
+        "quote":"A pressa gera o erro em todas as coisas.",
         "author": "Heródoto"
         }, {
-        "quote": "No meio do caos há sempre uma oportunidade",
+        "quote": "No meio do caos há sempre uma oportunidade.",
         "author": "Sun Tzu"
         }, {
-        "quote": "Só a educação liberta",
+        "quote": "Só a educação liberta.",
         "author": "Epíteto"
         }, {
         "quote": "Ler fornece ao espírito materiais para o conhecimento, mas só o pensar faz nosso o que lemos.",
@@ -36,7 +36,7 @@ const quotes = [
         "quote": "Prefiro ser um homem de paradoxos que um homem de preconceitos.",
         "author": "Jean-Jacques Rousseau"
         }, {
-        "quote": "A natureza fez o homem feliz e bom, mas a sociedade deprava-o e torna-o miserável",
+        "quote": "A natureza fez o homem feliz e bom, mas a sociedade deprava-o e torna-o miserável.",
         "author": "Jean-Jacques Rousseau"
         }, {
         "quote": "Podemos julgar o coração de um homem pela forma como ele trata os animais.",
@@ -60,7 +60,7 @@ const quotes = [
         "quote": "Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo.",
         "author": "George Santayana"
         }, {
-        "quote": "A educação é a arma mais poderosa que você pode usar para mudar o mundo",
+        "quote": "A educação é a arma mais poderosa que você pode usar para mudar o mundo.",
         "author": "Nelson Mandela"
         }, {
         "quote": "A insatisfação é o primeiro passo para o progresso de um homem ou de uma nação.",
@@ -87,22 +87,22 @@ const quotes = [
         "quote": "Um país não muda pela sua economia, sua política e nem mesmo sua ciência; muda sim pela sua cultura.",
         "author": "Herbert José de Sousa (Betinho), sociólogo e ativista dos direitos humanos brasileiro."
         }, {
-        "quote": "Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda",
+        "quote": "Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.",
         "author": "Paulo Freire"
         },{
         "quote": "Educação nunca foi despesa. Sempre foi investimento com retorno garantido.",
         "author": "Sir Arthur Lewis, economista britânico "
         }, {
-        "quote": "O homem está condenado a ser livre, pois, uma vez lançado ao mundo, ele é responsável por tudo o que faz.",
+        "quote": "O Homem está condenado a ser livre, pois, uma vez lançado ao mundo, ele é responsável por tudo o que faz.",
         "author": "Jean Paul Sartre"
         }, {
-        "quote": "Frágeis usam a violência, e os fortes, as ideias",
+        "quote": "Frágeis usam a violência, e os fortes, as ideias.",
         "author": "Augusto Cury"
         }, {
         "quote": "Inteligência é a habilidade das espécies para viver em harmonia com o meio ambiente.",
         "author": "Paul Atson, co-fundador do Greenpeace"
         }, {
-        "quote": "A cultura está acima da diferença da condição social",
+        "quote": "A cultura está acima da diferença da condição social.",
         "author": "Confúcio"
         }, {
         "quote": "Um povo que lê nunca será um povo escravo.",
@@ -117,19 +117,19 @@ const quotes = [
         "quote": "A nossa civilização é em grande parte responsável pelas nossas desgraças. Seríamos muito mais felizes se a abandonássemos e retornássemos às condições primitivas.",
         "author": "Sigmund Freud"
         }, {
-        "quote": "A civilização não suprime a barbárie, aperfeiçoa-a",
+        "quote": "A civilização não suprime a barbárie, aperfeiçoa-a.",
         "author": "Voltaire"
         }, {
-        "quote": "As redes sociais são muito úteis, oferecem serviços muito prazerosos, mas são uma armadilha",
+        "quote": "As redes sociais são muito úteis, oferecem serviços muito prazerosos, mas são uma armadilha.",
         "author": "Zygmunt Bauman"
         }, {
         "quote": "O novo não está no que é dito, mas no acontecimento de sua volta.",
         "author": "Michel Foucault"
         }, {
-        "quote": "O homem nasce livre, mas por toda parte se encontra acorrentado",
+        "quote": "O homem nasce livre, mas por toda parte se encontra acorrentado.",
         "author": "Jean Jacques Rousseau"
         }, {
-        "quote": "Quem conduz e arrasta o mundo não são as máquinas, são as ideias",
+        "quote": "Quem conduz e arrasta o mundo não são as máquinas, são as ideias.",
         "author": "Victor Hugo"
         }, {
         "quote": "Vivemos em uma época perigosa. O homem domina a natureza antes que tenha aprendido a dominar a si mesmo.",
@@ -144,7 +144,7 @@ const quotes = [
         "quote": "Só se pode vencer a natureza obedecendo-lhe.",
         "author": "Francis Bacon"
         }, {
-        "quote": "O homem fez da terra um inferno para os animais.",
+        "quote": "O Homem fez da Terra um inferno para os animais.",
         "author": "Arthur Schopenhauer"
         }, {
         "quote": "A natureza fez o comer para o viver e a gula fez o comer muito para o viver pouco.",
@@ -162,7 +162,7 @@ const quotes = [
         "quote": "Entre todos os direitos da mulher, nenhum é maior que o de ser mãe.",
         "author": "Yutang Lin, escritor chinês"
         }, {
-        "quote": "Os preconceitos têm mais raízes do que os princípios",
+        "quote": "Os preconceitos têm mais raízes do que os princípios.",
         "author": "Nicolau Maquiavel"
         }, {
         "quote": "Preconceito bloqueia a mente. Nada pode entrar. Nada verdadeiro pode escapar.",
@@ -186,7 +186,7 @@ const quotes = [
         "quote": "O preconceito da raça é injusto e causa grande sofrimento às pessoas.",
         "author": "Voltaire"
         }, {
-        "quote": "Época triste a nossa… mais fácil quebrar um átomo do que o preconceito",
+        "quote": "Época triste a nossa… mais fácil quebrar um átomo do que o preconceito.",
         "author": "Albert Einstein"
         }, {
         "quote": "Todo preconceito é fruto da burrice, da ignorância e qualquer atividade cultural contra preconceitos é válida.",
@@ -198,7 +198,7 @@ const quotes = [
         "quote": "Nada no mundo é mais assustador que a ignorância em ação.",
         "author": "Goethe"
         }, {
-        "quote": "Entre os indivíduos, assim como entre nações, o respeito pelo direito alheio é a paz",
+        "quote": "Entre os indivíduos, assim como entre nações, o respeito pelo direito alheio é a paz.",
         "author": "Benito Juárez, ex-presidente do México"
         }, {
         "quote": "É no problema da educação que assenta o grande degredo do aperfeiçoamento da humanidade.",
@@ -282,22 +282,23 @@ const quotes = [
         "quote": "Democracia com fome, sem educação e saúde para a maioria, é uma concha vazia.",
         "author": "Nelson Mandela"
         },
-        {
-            "quote": "O Brasil, último país a acabar com a escravidão tem uma perversidade intrínseca na sua herança, que torna a nossa classe dominante enferma de desigualdade, de descaso.",
-            "author": "Darcy Ribeiro, antropólogo, escritor e político brasileiro"
-            },
-             {
-            "quote": "Livros não mudam o mundo,quem muda o mundo são as pessoas.Os livros só mudam as pessoas.",
-            "author": "Mario Quintana"
-            },
             {
-                "quote": "Deus não pode querer que sua obra seja maculada, permitindo que se inocule no homem a linfa de um ser inferior como a vaca",
-                "author": "Papa Pio VII"
-                },
-                {
-                    "quote": "Os livros são essenciais para compreender o mundo e participar de uma sociedade democrática",
-                    "author": "Carl Sagan"
-                    }
+        "quote": "O Brasil, último país a acabar com a escravidão tem uma perversidade intrínseca na sua herança, que torna a nossa classe dominante enferma de desigualdade, de descaso.",
+        "author": "Darcy Ribeiro, antropólogo, escritor e político brasileiro"
+        },
+            {
+        "quote": "Livros não mudam o mundo, quem muda o mundo são as pessoas.Os livros só mudam as pessoas.",
+        "author": "Mario Quintana"
+        },
+        {
+            "quote": "Deus não pode querer que sua obra seja maculada, permitindo que se inocule no Homem a linfa de um ser inferior como a vaca.",
+            "author": "Papa Pio VII"
+            },
+            
+        {
+            "quote": "Os livros são essenciais para compreender o mundo e participar de uma sociedade democrática.",
+            "author": "Carl Sagan"
+        }
 ]
 
 export default quotes
