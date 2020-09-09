@@ -7,7 +7,7 @@ function Text(params) {
         
         <div className='Howredacao' id="texto" >
         <h2 > <mark> Como usar as citações </mark> </h2>
-        <p> Usar alusões historicas e citações alavancam sua nota na redação no Enem, por isso para te ajudar
+        <p> Usar alusões históricas e citações alavancam sua nota na redação no Enem, por isso para te ajudar
          esse gerador de citações mostra diversas frases que podem ser usadas como parte de sua argumentação,
           aproveite. <br /><br />
 
