@@ -89,4 +89,7 @@ html{
     align-items: center;
   
   }
+  #quote{
+    font-size: 18px;
+  }
 }
