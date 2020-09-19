@@ -29,7 +29,18 @@ mark{
     line-height: 23px;
 
 }
-
+.competencia{
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  text-align: left;
+  color: peru;
+}
+p{
+  
+  font-family: 'Roboto',sans-serif;
+  font-weight: lighter !important;
+  
+}
 @media(max-width: 768px){
   .Howredacao{
     margin:0;
