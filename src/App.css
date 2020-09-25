@@ -63,7 +63,7 @@ html{
   border-radius: 5px;
  
   height: 35px;
-  width: 100px;
+  /* width: 100px; */
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:#D9D9D9;

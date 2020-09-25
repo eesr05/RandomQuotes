@@ -1,0 +1,23 @@
+.cards{
+  display: flex;
+  justify-content: center;
+ 
+}
+.maindiv{
+ 
+  margin: 200px 30px;
+  border-radius: 15px;
+  background: peru;
+  width: 300px;
+  height: 400px;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.maindiv p {
+  color: blue;
+  margin-top: 12px;
+}

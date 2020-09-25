@@ -4,6 +4,8 @@ import QuotesAndAuthor from './Quotes';
 import quotes from './QuotesDataBase';
 import Navbar from './components/Nav/Hamburger'
 import Text from './containers/Text'
+import Cardes from './components/Cardes/Cardes'
+import redacao from './components/Cardes/Texts'
 import Footer from './footer/Footer'
 import './App.css';
 
@@ -14,7 +16,8 @@ class App extends React.Component{
     super()
     this.state = {
       quote: quotes[0].quote,
-      author: quotes[0].author
+      author: quotes[0].author,
+      title: redacao[0].title
     }
   }
 
@@ -59,6 +62,7 @@ class App extends React.Component{
        
       </div>
       <Text />
+      <Cardes {...this.state}/>
       <Footer />
 
 
@@ -103,6 +107,7 @@ class App extends React.Component{
 
     
 </Helmet>
+
       </>
     )
   }

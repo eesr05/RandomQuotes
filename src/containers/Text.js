@@ -45,6 +45,7 @@ function Text(params) {
 </p>
       <h3 className='competencia'> <strong>Competência 5</strong></h3>
       <p>Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos. Essa competência você deve tomar um pouco mais de cuidado, ela é bem simples porém cheia de detalhes, siga a receita que o 200 pontos vem. Existem 5 elementos que deve estar na sua proposta de intervenção, são eles: Quem?, Vai fazer O QUE?; Como?; Para quê?; e o detalhamento do que foi colocado no “Como?”. Colocando esses elementos sua proposta de intervenção estará completa, mas lembre-se sua proposta deve ser prática, e plausível, você pode zerar nessa competência se propor algo pouco prático, sua proposta será considerada nula, perdendo a chance de ganhar os pontos máximos. Use sempre estruturas que indicam que é obrigatório por a proposta em prática, por exemplo: “Deve”; “Urge”; “Cabe”;”É necessário”; “É urgente”; “É imperioso”. E não se esqueça seu texto deve ser cíclico, finalizar com uma frase que conecta com a citação que foi feita no primeiro parágrafo é bem visto pelos corretores.
+
 </p>
         </div>
         </div>
