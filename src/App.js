@@ -6,7 +6,7 @@ import Navbar from './components/Nav/Hamburger'
 import Text from './containers/Text'
 import Cardes from './components/Cardes/Cardes'
 import redacao from './components/Cardes/Texts'
-import Footer from './footer/Footer'
+import Footer from './components/footer/Footer'
 import './App.css';
 
 
@@ -53,6 +53,9 @@ class App extends React.Component{
             open: !this.state.open
         });
     }
+
+   
+
   render(){
     return(
       <>
@@ -62,7 +65,7 @@ class App extends React.Component{
        
       </div>
       <Text />
-      <Cardes {...this.state}/>
+      <Cardes   {...this.state}/>
       <Footer />
 
 
