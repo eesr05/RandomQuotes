@@ -14,7 +14,7 @@ class QuoteAndAuthor extends React.Component{
                 </div>
                 <button id="newquote" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button>
             </div>
-            <button id="newquote2" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button> 
+             <button id="newquote2" style={{backgroundColor: '#D96E48'}} onClick={this.props.handleClick}> Nova citação</button> 
             </>
         )
     }

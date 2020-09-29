@@ -1,24 +1,16 @@
 import React from 'react'
-import Modal from  './modal'
 import "./styles.css"
 import redacao from './Texts'
 
 
 const id = redacao.id
 
-;
-class Cardes extends React.Component {
-  // handleClick = () => {
-  //  return(
-  //     window.alert('Foi')
-  //  )
-  // }{this.handleClick}
- 
- 
+class Cardes extends React.Component { 
   constructor(props) {
     super(props)
     this.state = {
-    	render: false
+      render: false,
+      numberOfText: 0
     }
     this.alertHi = this.alertHi.bind(this);
   }
@@ -26,32 +18,33 @@ class Cardes extends React.Component {
   alertHi() {
   	this.setState({render: !this.state.render});
   }
-     
 
-
-  render(){
   
+  render(){
+    
     return (
       <div className="cards">
         <div className="maindiv" >
+
           {redacao.map((coisas) => {
-              return(<div>
-                
-                <div className="maindiv-2" > 
-                    <p key={id}>{coisas.title}</p> 
-                   {/* <button type="submit" onClick={this.alertHi} className="btn-ler">Ler Redação</button> */}
-                    {this.state.render && <div className=""><p></p></div>}
-                    <Modal />
-                </div>
+              return(
+                <div>                
+                  <div className="maindiv-2" > 
+                      <p key={coisas.id}>{coisas.title}</p> 
+                      <p>{coisas.text}</p>
+                      <button type="submit" onClick={this.alertHi} className="btn-ler" >
+                             Ler Redação 
+                       </button> 
+                          {this.state.render && <div className=""></div>}                    
+                   </div>
               </div>) 
-            })}
-         
-        </div>
-           
-      </div>
-     
+            }
+          )
+       }         
+        </div>           
+      </div>     
     )
   }
   
 }
-export default Cardes
+export default Cardes;

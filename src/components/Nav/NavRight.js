@@ -31,7 +31,6 @@ const Ul = styled.ul`
 
         li{
             color: #D9D9D9;
-            
         }
         a{
             color:#000;
@@ -39,25 +38,17 @@ const Ul = styled.ul`
     }
 `
 
-
-
 const NavRight = ({ open }) => {
     return(
         <BrowserRouter>
        <Switch>
         <Ul open={open}>
-            <li><Link to='texto' smooth={true} duration={1000}> Mais  </Link></li>
+            <li><Link to='texto' smooth={true} duration={1000}> Mais </Link></li>
             <li></li>
-           
         </Ul>
         </Switch>
         </BrowserRouter>
     )
 } 
-
-
-
-
-
 
 export default NavRight
