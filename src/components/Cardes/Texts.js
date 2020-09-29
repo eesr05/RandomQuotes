@@ -12,7 +12,7 @@ const redacao = [
   {
     "id":2,
     "title": "Os cuidados com a saúde mental ",
-    "text": "Sarah Paulson the best i love her right now, but tomorrow i don't know"
+    "text": "teste Teste test tes ts r sre sdfwe"
   },
   {
     "id":3,
@@ -27,7 +27,7 @@ const redacao = [
   {
     "id":5,
     "title": "Teste test tes te t",
-    "text": "Vou conseguir um emprego vou conseguir "
+    "text": "Vou conseguir terminar essa coisa "
   }
 ]
 
