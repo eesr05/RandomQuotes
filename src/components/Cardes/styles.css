@@ -12,6 +12,7 @@
 .maindiv{
   display: grid;
   grid-template-columns:repeat(3, 2fr);
+  text-align: center;
 }
 
 .maindiv-2{
@@ -23,7 +24,7 @@
   width: 235px;
   height: 250px;
   justify-content: center;
-  text-align: center;
+  
 }
 
 .maindiv p {
@@ -31,7 +32,7 @@
   text-align: center;
   position: relative;
   font-family: 'Secular One'; 
-  top: 15% !important;
+  top: 33% !important;
 }
 
 

@@ -78,9 +78,9 @@ mark{
 
 @media(max-width: 768px){
   .quotebox{
-    margin:250px 0 0 23px;
+    margin:240px 0 0 27px;
     width: 85%;
-    border: green 3px solid;
+   
     text-align: center;
     display: flex;
   }
@@ -89,7 +89,7 @@ mark{
   }
   #newquote2{
     display: flex;
-    margin: 23px 0 0 175px;
+    margin: 23px 0 0 130px;
     align-items: center;  
   }
   #quote{
@@ -97,9 +97,23 @@ mark{
   }
   .maindiv{
     display: grid;
+
     grid-template-columns:repeat(1, auto);
+  }
+  .maindiv-2{
+    margin-right: 25px;
+    margin-left: 2.5rem;
+    border: 2px solid green;
   }
   .footer{
     margin-top: 90rem;
+  }
+  mark{
+    text-align: center;
+    color: green;
+    /* line-height: 55px; */
+    white-space: nowrap;
+    font-size:1.5rem;
+    margin-right:1.5rem;
   }
 }
