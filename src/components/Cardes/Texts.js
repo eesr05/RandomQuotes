@@ -44,7 +44,7 @@ const redacao = [
   },
   {
     "id":10,
-    "title": "Preconceito linguistico"
+    "title": "A importância de cultivar hábitos saudáveis de alimentação desde a infância"
   },
   {
     "id":11,
@@ -68,8 +68,26 @@ const redacao = [
   },
   {
     "id":16,
-    "title": "Os impactos das fake news"
+    "title": "Ocupação e uso dos solos no Brasil: problemas e soluções"
   },
+  {
+    "id":17,
+    "title": "Pluralidade familiar no Brasil: desafios e perspectivas"
+  },
+  {
+    "id":18,
+    "title": "Caminhos para a redução da transmissão de HIV/aids no Brasil"
+  },
+  {
+    "id":19,
+    "title": "Desafios para promover o parto humanizado no Brasil"
+  },
+  {
+    "id":20,
+    "title": "Iniciativas para a inclusão de idosos no mercado de trabalho"
+  },
+
+
 
 
 ]
