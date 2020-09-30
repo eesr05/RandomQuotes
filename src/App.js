@@ -6,7 +6,7 @@ import Navbar from './components/Nav/Hamburger'
 import Text from './containers/Text'
 import Cardes from './components/Cardes/Cardes'
 import redacao from './components/Cardes/Texts'
-import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 
 import './App.css';
 
