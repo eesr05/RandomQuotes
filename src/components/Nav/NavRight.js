@@ -14,6 +14,7 @@ const Ul = styled.ul`
         padding:18px 10px;
         margin-right:30px;
         cursor: pointer;
+        color: #ccc
     }
 
     @media(max-width: 768px){
@@ -30,7 +31,7 @@ const Ul = styled.ul`
         transition: transform 0.3s ease-in-out;
 
         li{
-            color: #D9D9D9;
+            color: #000;
         }
         a{
             color:#000;
@@ -43,8 +44,8 @@ const NavRight = ({ open }) => {
         <BrowserRouter>
        <Switch>
         <Ul open={open}>
+            <li><Link to='quotebox' smooth={true} duration={1000} className="homeLink" > Home </Link></li>
             <li><Link to='texto' smooth={true} duration={1000}> Mais </Link></li>
-            <li></li>
         </Ul>
         </Switch>
         </BrowserRouter>

@@ -1,50 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 .cards{
   display: grid;
   width: 100%;
-  height: 970px;
+  height:  auto;
+  
 }
-
+.temas{
+  color:#e97146 !important;
+  margin-top: 54px;
+}
 .maindiv{
-  margin-bottom: 10px;
-  width: 300px;
-  height: 250px;
   display: grid;
   grid-template-columns:repeat(3, 2fr);
 }
 
 .maindiv-2{
-  border: 1px solid black;
-  margin: 150px 70px ;
+  margin-top: 150px;
+  margin-left: 119px;
   margin-bottom: 0;
   border-radius: 15px;
-  background:#CD853F;
-  width: 300px;
-  height: 400px;
-  align-self: center;
+  background:#e97146;
+  width: 235px;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
 }
 
 .maindiv p {
-  color: #fff;
+  color:#FFF    ;
   text-align: center;
   position: relative;
+  font-family: 'Secular One'; 
   top: 15% !important;
 }
 
-.btn-ler{
-  position: relative;
 
-  left:30%;
-  bottom: -200px;
-  
-  margin: 12px;
-  border: none;
-  border-radius: 15px;
-  background-color: lavenderblush;
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
-/* .ler{
-  width: 300px;
-  height: 400px;
- display:none;
- 
-} */
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}

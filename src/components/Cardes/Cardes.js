@@ -3,7 +3,7 @@ import "./styles.css"
 import redacao from './Texts'
 
 
-const id = redacao.id
+// const id = redacao.id
 
 class Cardes extends React.Component { 
   constructor(props) {
@@ -24,17 +24,18 @@ class Cardes extends React.Component {
     
     return (
       <div className="cards">
+      <h2 className="temas hvr-grow"><mark>Temas</mark></h2>
         <div className="maindiv" >
 
           {redacao.map((coisas) => {
               return(
                 <div>                
-                  <div className="maindiv-2" > 
+                  <div className="maindiv-2 hvr-grow " > 
                       <p key={coisas.id}>{coisas.title}</p> 
-                      <p>{coisas.text}</p>
-                      <button type="submit" onClick={this.alertHi} className="btn-ler" >
+                     
+                      {/* <button type="submit" onClick={this.alertHi} className="btn-ler" >
                              Ler Redação 
-                       </button> 
+                       </button>  */}
                           {this.state.render && <div className=""></div>}                    
                    </div>
               </div>) 

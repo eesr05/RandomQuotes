@@ -30,7 +30,7 @@ const Navbar = () => {
     return(
         <Nav>
             <div > 
-            <img className="logo" src={Logo} alt='Logo' onClick={() => scroll.scrollToTop()}/>
+            <img className="logo" id="logo" src={Logo} alt='Logo' onClick={() => scroll.scrollToTop()}/>
              </div>
             <Burger />
         </Nav>

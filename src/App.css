@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
 body{
   margin:0;
   overflow-x: hidden;
@@ -8,14 +8,14 @@ body{
   
 }
 html{
-  transition: background-color 1s;
-  
+  transition: background-color 1s;  
 }
-
+mark{
+  color: #fff;
+  background-color: #F28B30;
+}
 #root{
   width:100%;
- 
-
 }
 
 .quotebox{
@@ -28,10 +28,8 @@ html{
   padding-right:5px;
   margin-top:10px;
   margin:200px 400px;
-  /* display: flex;
-   */
- 
 }
+
 .quote{
   margin:20px;
   text-align: left;
@@ -63,16 +61,21 @@ html{
   margin: 20px;
   position: relative;
   border-radius: 5px;
- 
   height: 35px;
-  /* width: 100px; */
   font-weight:300;
   font-family: "Poppins", sans-serif;
   color:#D9D9D9;
 }
+
 #newquote2{
   display: none ;
 }
+
+.homeLink{
+  display: none;
+}
+
+
 @media(max-width: 768px){
   .quotebox{
     margin:250px 0 0 23px;
@@ -82,16 +85,21 @@ html{
     display: flex;
   }
   #newquote{
-   display: none;
+    display: none;
   }
   #newquote2{
     display: flex;
-    margin: 23px 0 0 150px;
-
-    align-items: center;
-  
+    margin: 23px 0 0 175px;
+    align-items: center;  
   }
   #quote{
     font-size: 18px;
+  }
+  .maindiv{
+    display: grid;
+    grid-template-columns:repeat(1, auto);
+  }
+  .footer{
+    margin-top: 90rem;
   }
 }
