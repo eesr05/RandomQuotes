@@ -293,7 +293,11 @@ const quotes = [
             {
                 "quote": "Deus não pode querer que sua obra seja maculada, permitindo que se inocule no homem a linfa de um ser inferior como a vaca",
                 "author": "Papa Pio VII"
-                }
+                },
+                {
+                    "quote": "Os verdadeiros analfabetos são aqueles que aprederam a ler e nao leem",
+                    "author": "Mario Quintana"
+                }        
 ]
 
 export default quotes
