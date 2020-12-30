@@ -89,7 +89,12 @@ const redacao = [
   {
     "id":21,
     "title": "A importância da literacia familiar"
+  },
+  {
+    "id":22,
+    "title": "Analfabetismo Digital"
   }
+
 
 
 

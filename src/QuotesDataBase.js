@@ -297,7 +297,11 @@ const quotes = [
                 {
                     "quote": "Os verdadeiros analfabetos são aqueles que aprederam a ler e nao leem",
                     "author": "Mario Quintana"
-                }        
+                },
+                 {
+                    "quote": "Toda tecnologia gera seus excluídos",
+                    "author": "Pierre Levy"
+                }     
 ]
 
 export default quotes
