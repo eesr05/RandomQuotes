@@ -13,6 +13,7 @@ const Ul = styled.ul`
     li{
         padding:18px 10px;
         margin-right:30px;
+        margin:15px 50px 0 ;
         cursor: pointer;
         color: #ccc
     }
@@ -32,6 +33,7 @@ const Ul = styled.ul`
 
         li{
             color: #000;
+            
         }
         a{
             color:#000;
