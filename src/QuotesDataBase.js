@@ -110,10 +110,8 @@ const quotes = [
         }, {
         "quote": "Você é livre para fazer suas escolhas, mas é prisioneiro das consequências.",
         "author": "Pablo Neruda"
-        }, {
-        "quote": "Você é livre para fazer suas escolhas, mas é prisioneiro das consequências.",
-        "author": "Thomas Hobbes"
-        }, {
+        }, 
+        {       
         "quote": "A nossa civilização é em grande parte responsável pelas nossas desgraças. Seríamos muito mais felizes se a abandonássemos e retornássemos às condições primitivas.",
         "author": "Sigmund Freud"
         }, {
