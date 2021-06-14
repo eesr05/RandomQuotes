@@ -6,6 +6,7 @@ import Navbar from './components/Nav/Hamburger'
 import Text from './containers/Text'
 import Cardes from './components/Cardes/Cardes'
 import redacao from './components/Cardes/Texts'
+
 import Footer from './components/footer/Footer'
 
 import './App.css';
@@ -56,6 +57,8 @@ class App extends React.Component{
         });
     } 
 
+  
+
   render(){
     return(
       <>
@@ -63,8 +66,10 @@ class App extends React.Component{
         <div>   
            <QuotesAndAuthor displayColor={this.randomColor} handleClick={this.handleClick} {...this.state}/>
         </div>
+        
       <Text />
       <Cardes   {...this.state}/>
+     
       <Footer />
       
       <Helmet 

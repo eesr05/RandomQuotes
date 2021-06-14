@@ -40,7 +40,7 @@
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0.1px ;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
@@ -51,4 +51,8 @@
 .hvr-grow:focus,
 .hvr-grow:active {
   transform: scale(1.1);
+}
+
+.btn_modal:hover{
+  display: inline-block;
 }

@@ -15,12 +15,12 @@ const Ul = styled.ul`
         margin-right:30px;
         margin:15px 50px 0 ;
         cursor: pointer;
-        color: #ccc
+        color: #fff;
     }
 
     @media(max-width: 768px){
         flex-flow: column nowrap;
-        background-color: #D8D8D8;
+        background-color: #0101;
         position: fixed;
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top:0;
@@ -33,6 +33,8 @@ const Ul = styled.ul`
 
         li{
             color: #000;
+            text-align:center;
+            margin-left:0.2rem;
             
         }
         a{

@@ -93,8 +93,11 @@ const redacao = [
   {
     "id":22,
     "title": "Analfabetismo Digital"
+  },
+  {
+    "id":23,
+    "title":"O estigma associado às doenças mentais na sociedade brasileira"
   }
-
 
 
 

@@ -3,11 +3,11 @@
     height: 150px;
     clear: both;
     margin-top: 40rem;
-    background-color: #F28B30;
+    background-color: #E97146 !important;
     position: relative;
 }
 .footer-bons{
-    color: #D9D9D9 !important;
+    color: #ffffff !important;
     padding-top: 13px;
 }
 .copyright{
@@ -19,4 +19,7 @@
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color:#e6815c;
 }

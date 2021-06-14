@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Burger from './Burger'
-import Logo from './logo/cita2.png'
+import Logo from './logo/logo2.png'
 import { animateScroll as scroll } from 'react-scroll'
 
 const Nav = styled.nav`
@@ -14,15 +14,14 @@ const Nav = styled.nav`
     padding: 0 5px;
     display: flex;
     justify-content: space-between;
-    background-color:#F28B30;
+    background-color:#E97146;
     z-index:1;
 
     .logo{
-       margin:1px 0 0 25px;
+       margin:15px 0 0 25px;
        color: #000;
-       /* font-size: 23px; */
-       width: 230px;
-       height: 130px;
+       width: 160px;
+       height: 70px;
     }
 `
 
