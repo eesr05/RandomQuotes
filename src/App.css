@@ -97,7 +97,7 @@ mark{
   }
   #newquote2{
     display: flex;
-    margin: 23px 0 0 8em;
+    margin: 23px 0 0 7rem;
     align-items: center; 
     border-color: #E97146 !important; 
   }
