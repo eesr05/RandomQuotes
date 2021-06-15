@@ -75,10 +75,18 @@ mark{
   display: none;
 }
 
+ @media only screen and (min-width:370px){
 
-@media(max-width: 768px){
+  #newquote2{
+    margin: 23px 0 0 2rem;
+  }
+  .howredacao h2{
+    margin: 1rem;
+  }
+} 
+@media only screen and (max-width: 800px){
   .quotebox{
-    margin:240px 0 0 37px;
+    margin:240px 0 0 30px;
     width: 85%;
    
     text-align: center;
@@ -89,7 +97,7 @@ mark{
   }
   #newquote2{
     display: flex;
-    margin: 23px 0 0 8rem;
+    margin: 23px 0 0 8em;
     align-items: center; 
     border-color: #E97146 !important; 
   }
@@ -119,3 +127,7 @@ mark{
     margin-right:0.1rem;
   }
 }
+/* 
+@media only screen and (max-width: 1090px){
+
+} */
