@@ -11,67 +11,109 @@ const quotes = [
     {
         "quote": "Sorte é o que acontece quando a preparação encontra a oportunidade",
         "author": "Sêneca"
-        }, {
+        },
+        
+        {
         "quote":"Aquele que não economiza irá agonizar",
         "author": "Confúcio"
-        }, {
+        }, 
+        
+        {
         "quote":"A pressa gera o erro em todas as coisas",
         "author": "Heródoto"
-        }, {
+        }, 
+        
+        {
         "quote": "No meio do caos há sempre uma oportunidade",
         "author": "Sun Tzu"
-        }, {
+        }, 
+        
+        {
         "quote": "Só a educação liberta",
         "author": "Epíteto"
-        }, {
+        }, 
+        
+        {
         "quote": "Ler fornece ao espírito materiais para o conhecimento, mas só o pensar faz nosso o que lemos.",
         "author": "John Locke"
-        }, {
+        }, 
+        
+        {
         "quote": "Onde não há lei, não há liberdade.",
         "author": "John Locke"
-        }, {
+        }, 
+        
+        {
         "quote": "De um modo geral, os erros na religião são perigosos; enquanto os da filosofia apenas ridículos.",
         "author": "David Hume"
-        }, {
+        }, 
+        
+        {
         "quote": "Prefiro ser um homem de paradoxos que um homem de preconceitos.",
         "author": "Jean-Jacques Rousseau"
-        }, {
+        },
+        
+        {
         "quote": "A natureza fez o homem feliz e bom, mas a sociedade deprava-o e torna-o miserável",
         "author": "Jean-Jacques Rousseau"
-        }, {
+        }, 
+        
+        {
         "quote": "Podemos julgar o coração de um homem pela forma como ele trata os animais.",
         "author": "Immanuel Kant"
-        }, {
+        }, 
+        
+        {
         "quote": "É por isso que se mandam as crianças à escola: não tanto para que aprendam alguma coisa, mas para que se habituem a estar calmas e sentadas e a cumprir escrupulosamente o que se lhes ordena, de modo que depois não pensem mesmo que têm de pôr em prática as suas ideias.",
         "author": "Immanuel Kant"
-        }, {
+        }, 
+        
+        {
         "quote": "O inferno são os outros.",
         "author": "Jean-Paul Sartre"
-        }, {
+        }, 
+        
+        {
         "quote": "Ainda que fôssemos surdos e mudos como uma pedra, a nossa própria passividade seria uma forma de ação.",
         "author": "Jean-Paul Sartre"
-        }, {
+        }, 
+        
+        {
         "quote": "As pessoas sabem aquilo que elas fazem; frequentemente sabem por que fazem o que fazem; mas o que ignoram é o efeito produzido por aquilo que fazem.",
         "author": "Michel Foucault"
-        }, {
+        },
+        
+        {
         "quote": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos.",
         "author": "Artigo 1º da Declaração Universal dos Direitos Humanos."
-        }, {
+        }, 
+        
+        {
         "quote": "Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo.",
         "author": "George Santayana"
-        }, {
+        }, 
+        
+        {
         "quote": "A educação é a arma mais poderosa que você pode usar para mudar o mundo",
         "author": "Nelson Mandela"
-        }, {
+        }, 
+        
+        {
         "quote": "A insatisfação é o primeiro passo para o progresso de um homem ou de uma nação.",
         "author": "Oscar Wilde"
-        }, {
+        }, 
+        
+        {
         "quote": "Não são as crises que mudam o mundo, e sim nossa reação a elas.",
         "author": "Zygmunt Bauman,"
-        }, {
+        }, 
+        
+        {
         "quote": "O indivíduo só poderá agir na medida em que aprender a conhecer o contexto em que está inserido, a saber quais são suas origens e as condições de que depende.",
         "author": "Émile Durkheim"
-        }, {
+        }, 
+        
+        {
         "quote": "Não corrigir nossas falhas é o mesmo que cometer novos erros.",
         "author": "Confúcio"
         }, {
