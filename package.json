@@ -41,5 +41,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Alusões aleatorias para redação do enem.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eesr05/RandomQuotes.git"
+  },
+  "author": "Evelinne Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eesr05/RandomQuotes/issues"
+  },
+  "homepage": "https://github.com/eesr05/RandomQuotes#readme"
 }

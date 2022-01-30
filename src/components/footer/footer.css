@@ -3,7 +3,7 @@
     height: 150px;
     clear: both;
     margin-top: 40rem;
-    background-color: #E97146 !important;
+    background-color: #5429cc !important;
     position: relative;
 }
 .footer-bons{
@@ -21,5 +21,5 @@ a{
     color: white;
 }
 a:hover{
-    color:#e6815c;
+    color:#5b3ead;
 }

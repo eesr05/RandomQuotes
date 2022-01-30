@@ -1,8 +1,7 @@
 const redacao = [
   {
     "id":0,
-    "title": "Agrotóxicos suas consequências",
-   
+    "title": "Agrotóxicos suas consequências",   
   },
   {
     "id":1,
@@ -123,10 +122,6 @@ const redacao = [
     "id":24,
     "title": "Desafios para combater a probreza menstrual no Brasil"    
   }
-
-
-
-
 ]
 
 export default redacao

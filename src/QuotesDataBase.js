@@ -1,5 +1,4 @@
-const quotes = [
-   
+const quotes = [   
     {
         "quote": "O prazer no trabalho aperfeiçoa a obra",
         "author": "Aristóteles"
